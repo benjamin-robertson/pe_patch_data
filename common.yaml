@@ -1,1 +1,4 @@
 ---
+pe_patch::patch_group: 'default_common'
+pe_patch::pre_patching_scriptpath: /tmp/run_me_before.sh
+pe_patch::post_patching_scriptpath: /tmp/run_me_after.sh
