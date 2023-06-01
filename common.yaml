@@ -10,3 +10,6 @@ patch_groups_as_a_hash:
   group_2:
     - ip-172-31-6-103.ap-southeast-2.compute.internal
     - ip-172-31-6-6.ap-southeast-2.compute.internal
+  group_3:
+    - ip-172-31-8-48.ap-southeast-2.compute.internal
+    - ip-172-31-11-11.ap-southeast-2.compute.internal
