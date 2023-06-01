@@ -2,3 +2,11 @@
 pe_patch::patch_group: 'default_common'
 pe_patch::pre_patching_scriptpath: /tmp/run_me_before.sh
 pe_patch::post_patching_scriptpath: /tmp/run_me_after.sh
+
+# Patching groups
+patch_groups_as_a_hash:
+  group_1:
+    ip-172-31-11-11.ap-southeast-2.compute.internal
+  group_2:
+    ip-172-31-6-103.ap-southeast-2.compute.internal
+    ip-172-31-6-6.ap-southeast-2.compute.internal
