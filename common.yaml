@@ -19,3 +19,4 @@ patching_options_as_a_hash:
   ip-172-31-11-11.ap-southeast-2.compute.internal:
     pre_patching_scriptpath: /tmp/blah.sh
     post_patching_scriptpath: /tmp/blah.sh
+    patch_group: doge
