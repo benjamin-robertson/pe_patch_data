@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 #!/usr/local/bin/ruby
 require 'yaml'
 
