@@ -20,4 +20,4 @@ patching_options_as_a_hash:
   ip-172-31-9-231.ap-southeast-2.compute.internal:
     pre_patching_scriptpath: /root/pre_patch.sh
     post_patching_scriptpath: /root/post_patch.sh
-doge: ghi
+# doge: ghi
