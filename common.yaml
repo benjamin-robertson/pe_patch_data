@@ -3,8 +3,8 @@
 patch_groups_as_a_hash:
   group_1:
     - ip-172-31-0-210.ap-southeast-2.compute.internal
-  group_2:
     - ip-172-31-1-159.ap-southeast-2.compute.internal
+  group_2:
     - ip-172-31-13-26.ap-southeast-2.compute.internal
   group_3:
     - ip-172-31-8-82.ap-southeast-2.compute.internal
@@ -18,4 +18,5 @@ patching_options_as_a_hash:
     pre_patching_scriptpath: /tmp/blah.sh
     post_patching_scriptpath: /tmp/blah.sh
 
-# doge: ghi
+doge: ghi
+invalid_key: test
