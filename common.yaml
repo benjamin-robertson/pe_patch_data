@@ -18,5 +18,4 @@ patching_options_as_a_hash:
     pre_patching_scriptpath: /tmp/blah.sh
     post_patching_scriptpath: /tmp/blah.sh
 
-doge: ghi
-invalid_key: test
+# invalid_key: test
