@@ -17,5 +17,7 @@ patching_options_as_a_hash:
   ip-172-31-3-254.ap-southeast-2.compute.internal:
     pre_patching_scriptpath: /tmp/blah.sh
     post_patching_scriptpath: /tmp/blah.sh
+  ip-172-31-8-82.ap-southeast-2.compute.internal:
+    reboot_override: never
 
 # invalid_key: test
