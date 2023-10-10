@@ -2,10 +2,10 @@
 # Patching groups
 patch_groups_as_a_hash:
   group_1:
-    - ip-172-31-0-210.ap-southeast-2.compute.internal
-    - ip-172-31-1-159.ap-southeast-2.compute.internal
+    - ip-172-31-21-38.ap-southeast-2.compute.internal
+    - ip-172-31-31-142.ap-southeast-2.compute.internal
   group_2:
-    - ip-172-31-13-26.ap-southeast-2.compute.internal
+    - ip-172-31-17-92.ap-southeast-2.compute.internal
   group_3:
     - ip-172-31-8-82.ap-southeast-2.compute.internal
     # - ip-172-31-11-11.ap-southeast-2.compute.internal
