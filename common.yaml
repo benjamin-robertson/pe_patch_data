@@ -16,9 +16,8 @@ patch_groups_as_a_hash:
   group_3:
     hosts:
       # - ip-172-31-21-38.ap-southeast-2.compute.internal
-    # - ip-172-31-11-11.ap-southeast-2.compute.internal
   group_4:
-    # - ip-172-31-8-82.ap-southeast-2.compute.internal
+    - ip-172-31-21-38.ap-southeast-2.compute.internal
 
 # Additional optional patching options
 patching_options_node_override:
