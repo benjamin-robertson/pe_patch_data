@@ -25,7 +25,7 @@ patching_options_node_override:
   ip-172-31-21-38.ap-southeast-2.compute.internal:
     pre_patching_scriptpath: /tmp/blah.sh
     post_patching_scriptpath: /tmp/blah.sh
-  ip-172-31-8-82.ap-southeast-2.compute.internal:
-    reboot_override: never
+  ip-172-31-17-92.ap-southeast-2.compute.internal:
+    reboot_override: patched
 
 # invalid_key: test
