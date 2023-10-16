@@ -5,9 +5,9 @@ patch_groups_as_a_hash:
     hosts:
       - ip-172-31-21-38.ap-southeast-2.compute.internal
       - ip-172-31-31-142.ap-southeast-2.compute.internal
-    # options:
-    #   pre_patching_scriptpath: /bin/ls
-    #   post_patching_scriptpath: /bin/ls
+    options:
+      pre_patching_scriptpath: /bin/ls
+      post_patching_scriptpath: /bin/ls
   group_2:
     hosts:
       - ip-172-31-17-92.ap-southeast-2.compute.internal
@@ -20,12 +20,12 @@ patch_groups_as_a_hash:
   group_4:
     - ip-172-31-21-38.ap-southeast-2.compute.internal
 
-# Additional optional patching options
-patching_options_node_override:
-  ip-172-31-21-38.ap-southeast-2.compute.internal:
-    pre_patching_scriptpath: /tmp/blah.sh
-    post_patching_scriptpath: /tmp/blah.sh
-  ip-172-31-17-92.ap-southeast-2.compute.internal:
-    reboot_override: patched
+# Additional node override patching options.
+# patching_options_node_override:
+#   ip-172-31-21-38.ap-southeast-2.compute.internal:
+#     pre_patching_scriptpath: /tmp/blah.sh
+#     post_patching_scriptpath: /tmp/blah.sh
+#   ip-172-31-17-92.ap-southeast-2.compute.internal:
+#     reboot_override: patched
 
 # invalid_key: test
